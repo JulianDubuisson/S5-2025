@@ -47,3 +47,22 @@ farenheit= (celsius * 9 / 5) + 32
 print ("Los grados en F", farenheit)
 
 
+
+
+num1 = float(input("Ingrese un numero"))
+num2 = float(input("Ingrese otro numero"))
+
+print("Seleccione una opcion \n 1. Suma \n 2. Resta \n 3. Multiplicación \n 4. División")
+
+opcion = int(input("Ingrese una opción: "))
+
+if opcion == 1:
+    print("La suma es: ", num1 + num2)
+elif opcion == 2:
+    print("La resta es: ", num1 - num2)
+elif opcion == 3:
+    print("La multiplicación es: ", num1 * num2)
+elif opcion == 4:
+    print("La división es: ", num1 / num2)
+else:
+    print("Opción inválida")
